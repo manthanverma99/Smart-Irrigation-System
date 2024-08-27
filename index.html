@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <title>Smart Irrigation System</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav>
+      <a href="#" class="logo">AI Robot</a>
+
+      <div class="nav-links">
+        <a href="#problem">Problem Statement</a>
+        <a href="#prototype">Prototype</a>
+        <a href="#components">Components</a>
+        <a href="#application">Application</a>
+        <a href="#futurescope">Future Scope</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="Intro">
+    <div class="text-box">
+      <h1>Smart Irrigation System</h1>
+      <p>A smart bot that senses the environment's temperature and humidity and uses an obstacle avoidance feature to give water and pesticides without the need for human intervention.</p>
+    </div>
+  </section>
+
+  <section class="problem">
+    <h1 class="sub-title">Problem Statement</h1>
+    <div>
+     <p>Farmers face challenges in efficiently and sustainably managing water and pesticide application in their fields. Traditional methods are labor-intensive, can lead to over-application of resources, and expose farmers to harmful chemicals.
+    <br/> 
+    <br/>
+    <br>
+    <h3>Our Solution</h3>
+
+     A robot that can autonomously navigate fields, monitor environmental conditions, and precisely apply water and pesticides can address these issues, improving efficiency, reducing environmental impact, and enhancing farmer safety.</p>
+    </div>
+  </section>
+
+  <section class="prototype">
+    <h1 class="sub-title">Prototype</h1>
+    <div class="row">
+      <div class="column">
+        <img src="prototype.jpg" alt="prototype" style="width:100%">
+        <h3>Robot</h3>
+      </div>
+      <div class="column">
+        <img src="flowchart.png" alt="Forest" style="width:100%">
+        <h3>Flowchart</h3>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="components">
+    <div class="Container">
+      <h1 class="sub-title">Components</h1>
+      <div class="component-list">
+        <div>
+          <h2>Arduino UNO</h2>
+          <img src="uno.png"/>
+          <p>Arduino UNO is based on an ATmega328P microcontroller. The board consists of digital and analog Input/Output pins (I/O), shields, and other circuits.The Arduino UNO includes 6 analog pin inputs, 14 digital pins, a USB connector, a power jack, and an ICSP (In-Circuit Serial Programming) header. It is programmed based on IDE, which stands for Integrated Development Environment. It can run on both online and offline platforms.</p>
+        </div>
+     
+        <div>
+          <h2>Motor Driver</h2>
+          <img src="L298n motor driver.jpg"/>
+          <p> L298N Motor Driver Module is a high-power motor driver perfect for driving DC Motors and Stepper Motors. It has an onboard 5V regulator which it can supply to an external circuit. It can control up to 4 DC motors, or 2 DC motors with directional and speed control.</p>
+        </div>
+     
+        <div>
+          <h2>DC Pump</h2>
+          <img src="dc pump.webp"/>
+          <p>DC pumps use direct current (DC) as a power source, unlike conventional pumps that use alternating current (AC). DC pumps have several advantages over AC pumps, including direct energy conversion, Battery storage and Lower energy consumption</p>
+        </div>
+   
+        <div>
+          <h2>LCD</h2>
+          <img src="LCD + i2c.jpg"/>
+          <p>It stands for Liquid Crystal Display which are ideal for displaying only characters. A 16×2 character LCD, can display 32 characters across two rows.
+          LCD is connected with Inter-Integrated Circuit I2C which can reduce the difficulty of make, so that makers can focus on the core of the work. We use the Arduino library for I2C_LCD, user just need a few lines of the code can achieve complex graphics and text display features.
+          </p>
+        </div>
+    
+        <div>
+          <h2>Temperature & Humidity Sensor</h2>
+          <img src="DHT11 sensor.jpg"/>
+          <p>The DHT11 is a commonly used Temperature and humidity sensor that comes with an 8-bit microcontroller to output the values of temperature and humidity as serial data. The sensor can measure temperature from 0°C to 50°C and humidity from 20% to 90% with an accuracy of ±1°C and ±1%.</p>
+        </div>
+     
+        <div>
+          <h2>Ultrasonic Sensor</h2>
+          <img src="ultra sonic sensor.jpg"/>
+          <p>An ultrasonic sensor is an instrument that measures the distance to an object using ultrasonic sound waves.An ultrasonic sensor uses a transducer to send and receive ultrasonic pulses that relay back information about an object’s proximity. High-frequency sound waves reflect across boundaries to produce distinct echo patterns.</p>
+        </div>
+      
+        <div>
+          <h2>Servo Motor</h2>
+          <img src="Servo Motor.jpg"/>
+          <p>A servomotor is a rotary or linear actuator that allows for precise control of angular or linear position, velocity, and acceleration in a mechanical system. It constitutes part of a servomechanism, and consists of a suitable motor coupled to a sensor for position feedback and a controller. </p>
+        </div>
+      
+        <div>
+          <h2>DC Shaft Motor</h2>
+          <img src="Dc center saft motor (1).jpg"/>
+          <p>A machine that converts direct current into mechanical work, is called a DC motor. The shaft in a motor is a cylindrical component that extrudes out from the motor and its housing. DC motors have high sustained torque. This makes them ideal for robotics applications that require a constant force. Furthermore, DC motors have a wide range of speed capabilities that make them ideal for robotics applications that require accurate speed control.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="application">
+    <h1 class="sub-title">Application</h1>
+    <div class="advantage">
+      <p>
+        <box-icon name='disc' type='solid' color='#3a0ca3' ></box-icon>  <b>Save Resources </b>The purpose of smart irrigation is to save water, it replaces the previous flood irrigation. It uses less water to meet the growth needs of plants. Smart irrigation systems can collect soil moisture data and effectively control irrigation water. It is also equipped with a circulation system to save water resources.
+
+        <br/>
+        <br/>
+
+        <box-icon name='disc' type='solid' color='#3a0ca3' ></box-icon>  <b>Save manpower </b> Compared with traditional irrigation methods, smart irrigation is an automated method. No need for the irrigator to walk around the irrigation field with the nozzle. There is also no need to manually open or close the water valve. A robot can complete the entire irrigation work. No longer worry about the plants in the garden will wilt due to lack of water when traveling. You can play anywhere with confidence.
+
+        <br/>
+        <br>
+
+        <box-icon name='disc' type='solid' color='#3a0ca3' ></box-icon>  <b>Fine irrigation </b>Based on the real-time data measured by the sensors, we adjust the irrigation method in time. Water regularly and quantitatively according to the growth of the plants. Irrigation evenly throughout the garden allows each flower to grow healthily.
+      </p>
+    </div>
+  </section>
+
+  <section class="futurescope">
+    <h1 class="sub-title">Future Scope</h1>
+    <div class="scope">
+      <p>
+        We have planned to extend this project by connecting Node MCU module ESP8266 that enable us to regulate our robot remotely, along with we will introduce a GPS module in it. Also, we store data readings in excel sheet using Python language and apply Machine Learning algorithm on it for future prediction. 
+      </p>
+    </div>
+  </section>
+  
+  <div class="footer">
+    <p>Developed with &#9829; by Bhavishya &#169; 2024 </p>
+  </div>
+  
+</body>
+</html>
