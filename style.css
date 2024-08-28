@@ -52,10 +52,12 @@ nav{
 
 .text-box h1{
   color: blue;
+  background-image: linear-gradient(180deg, rgb(161, 250, 161), yellow);
   position: absolute;
   top: 38%;
   left: 23%;
-  font-size: 75px;
+  font-size: 65px;
+  border-radius: 10px;
   text-align: center;
 }
 
@@ -107,6 +109,10 @@ nav{
   margin-bottom: 30px;
 }
 
+#proto{
+  height: 304px;
+  width: 600px;
+}
 
 .column {
   float: left;
