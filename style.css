@@ -68,6 +68,7 @@ nav{
   right: 9%;
   font-size: 21px;
   text-align: center;
+  margin-top: 20px;
   border-radius: 15px;
 }
 
@@ -88,7 +89,7 @@ nav{
 }
 
 .problem div{
-  height: 50vh;
+  height: 60vh;
   font-size: 30px;
   background-color: #9ef01a;
   margin-left: 125px;
